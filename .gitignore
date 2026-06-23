@@ -15,3 +15,127 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 pytestdebug.log
+
+# Byte-compiled / optimized / DLL files
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# C extensions
+
+*.so
+
+# Distribution / packaging
+
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Virtual environments
+
+venv/
+.venv/
+env/
+ENV/
+
+# Installer logs
+
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+# Type checker caches
+
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# VS Code
+
+.vscode/
+
+# PyCharm
+
+.idea/
+
+# macOS
+
+.DS_Store
+
+# Windows
+
+Thumbs.db
+Desktop.ini
+
+# Environment variables
+
+.env
+.env.*
+
+# Local SQLite databases
+
+*.sqlite3
+*.db
+
+# Logs
+
+*.log
+
+# Temporary files
+
+*.tmp
+
+# Generated documentation
+
+docs/_build/
+
+# MkDocs
+
+site/
+
+# Search and cache data
+
+searches/*.json
+cache/
+data/
+
+# User configuration
+
+config.local.json
+settings.local.toml
+
+# Generated reports
+
+reports/
+exports/
+
+# Coverage files
+
+coverage.xml
+
+# Build artifacts
+
+*.whl
+
+# uv
+
+.uv/
+
+# uv.lock (optional, remove this line if you want to commit it)
+
+uv.lock
